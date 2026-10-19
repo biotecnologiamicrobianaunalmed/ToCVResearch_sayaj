@@ -1,0 +1,47 @@
+.figura { margin: 0; background: #ffffff; border-radius: var(--radius); padding: 14px 16px 10px; box-shadow: var(--shadow); border: 1px solid var(--c-line); }
+.figura img { width: 100%; height: auto; display: block; }
+.figura figcaption { font-size: 0.82rem; color: #4b5563; margin-top: 8px; }
+.figura figcaption sup.cita a { color: #2f7a5a; }
+.tabla--taxonomia th { width: 34%; font-size: 0.82rem; color: var(--c-ink-3); background: none; border-bottom: 1px solid var(--c-line); padding: 7px 8px; font-weight: 600; }
+.tabla--taxonomia td { padding: 7px 8px; border-bottom: 1px solid var(--c-line); color: var(--c-ink); }
+.genoma { display: grid; gap: 14px; margin-bottom: 14px; }
+.genoma-cabecera { display: flex; justify-content: space-between; font-size: 0.9rem; color: var(--c-ink-2); margin-bottom: 4px; }
+.genoma-cabecera strong { color: var(--c-amarillo-300); font-family: var(--font-titulos); }
+.genoma-barra { display: flex; gap: 3px; height: 30px; }
+.genoma-barra span { display: grid; place-items: center; background: linear-gradient(180deg, var(--c-surface-2), #223a5c); border: 1px solid var(--c-line); border-radius: 6px; font-size: 0.68rem; color: var(--c-ink-2); overflow: hidden; white-space: nowrap; padding: 0 3px; min-width: 0; }
+.genoma-barra span:nth-child(odd) { background: linear-gradient(180deg, #1f3454, #27456d); }
+.genoma .nota { margin: 4px 0 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.pasos { list-style: none; padding: 0; margin: 0 0 18px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.pasos li { display: grid; grid-template-columns: 34px 1fr; gap: 12px; align-items: start; background: var(--c-surface); border: 1px solid var(--c-line); border-radius: var(--radius); padding: 14px 16px; }
+.pasos-num { width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; font-family: var(--font-titulos); font-weight: 800; color: #1a1407; background: var(--c-amarillo); }
+.pasos strong { display: block; margin-bottom: 2px; }
+.pasos p { margin: 0; font-size: 0.92rem; color: var(--c-ink-2); }
+.vector-tarjeta { position: relative; }
+.vector-icono { margin-bottom: 8px; }
+.lista-puntos { margin: 0; padding-left: 18px; color: var(--c-ink-2); font-size: 0.94rem; display: grid; gap: 6px; }
+.orden-eficiencia { list-style: none; padding: 0; margin: 0 0 16px; display: grid; gap: 6px; }
+.orden-eficiencia li { display: flex; align-items: center; gap: 10px; background: var(--c-surface-2); border-radius: 8px; padding: 6px 10px; font-size: 0.92rem; color: var(--c-ink); }
+.orden-eficiencia span { width: 22px; height: 22px; border-radius: 50%; background: var(--c-amarillo); color: #1a1407; font-weight: 800; font-size: 0.78rem; display: grid; place-items: center; flex: none; }
+.subtitulo-peq { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--c-ink-3); margin: 6px 0 8px; }
+.barras { display: grid; gap: 6px; }
+.barra-fila { display: grid; grid-template-columns: 130px 1fr 70px; align-items: center; gap: 10px; font-size: 0.84rem; color: var(--c-ink-2); }
+.barra-pista { height: 10px; background: var(--c-surface-2); border-radius: 5px; overflow: hidden; }
+.barra-pista i { display: block; height: 100%; border-radius: 5px; background: var(--c-amarillo); }
+.barra-pista .barra--btab { background: var(--c-btab); }
+.barra-pista .barra--tvap { background: var(--c-tvap); }
+.barra-valor { text-align: right; white-space: nowrap; color: var(--c-ink); font-weight: 600; }
+
+.archivos { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+.archivos li { display: grid; gap: 6px; }
+.referencias { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.referencias li { display: grid; grid-template-columns: 30px 1fr; gap: 10px; font-size: 0.9rem; color: var(--c-ink-2); scroll-margin-top: calc(var(--nav-h) + 16px); }
+.referencias li:target { background: var(--c-amarillo-100); border-radius: 8px; padding: 4px 6px; }
+.ref-num { color: var(--c-amarillo-300); font-weight: 700; }
+.referencias a { color: var(--c-floema-300); word-break: break-all; font-size: 0.84rem; }
+
+@media (max-width: 960px) {
+  .pasos { grid-template-columns: 1fr; }
+  .barra-fila { grid-template-columns: 110px 1fr 64px; }
+}

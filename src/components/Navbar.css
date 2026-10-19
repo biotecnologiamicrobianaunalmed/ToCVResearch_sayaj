@@ -1,0 +1,20 @@
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; height: var(--nav-h); transition: background 0.25s ease, box-shadow 0.25s ease; color: #fff; }
+.nav--solida { background: rgba(11, 21, 34, 0.92); backdrop-filter: blur(10px); box-shadow: 0 1px 0 var(--c-line), 0 6px 20px rgba(0, 0, 0, 0.3); color: var(--c-ink); }
+.nav-interior { max-width: 1400px; margin: 0 auto; height: 100%; display: flex; align-items: center; justify-content: space-between; padding: 0 20px; gap: 16px; }
+.nav-marca { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; font-family: var(--font-titulos); font-weight: 800; letter-spacing: -0.01em; }
+.nav-marca-icono { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 10px; background: var(--c-amarillo); color: #1a1407; }
+.nav-marca-texto span { font-weight: 600; opacity: 0.8; }
+.nav-enlaces { display: flex; gap: 4px; }
+.nav-enlaces a { color: inherit; text-decoration: none; font-weight: 600; font-size: 0.88rem; padding: 8px 12px; border-radius: 999px; opacity: 0.88; transition: background 0.15s ease, opacity 0.15s ease; white-space: nowrap; }
+.nav-enlaces a:hover { opacity: 1; background: rgba(255, 255, 255, 0.12); }
+.nav-enlaces a.activo { opacity: 1; background: var(--c-amarillo-100); color: var(--c-amarillo-300); }
+.nav:not(.nav--solida) .nav-enlaces a.activo { background: rgba(255, 255, 255, 0.18); color: #fff; }
+.nav-hamburguesa { display: none; background: none; border: 0; width: 44px; height: 44px; padding: 10px; cursor: pointer; flex-direction: column; justify-content: center; gap: 5px; color: inherit; }
+.nav-hamburguesa span { display: block; height: 2px; background: currentColor; border-radius: 2px; }
+@media (max-width: 1060px) {
+  .nav-hamburguesa { display: flex; }
+  .nav-enlaces { position: absolute; top: var(--nav-h); left: 0; right: 0; flex-direction: column; background: var(--c-surface); padding: 10px 16px 16px; border-bottom: 1px solid var(--c-line); box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4); display: none; color: var(--c-ink); }
+  .nav-enlaces--abierto { display: flex; }
+  .nav-enlaces a { padding: 12px 14px; font-size: 1rem; border-radius: 10px; }
+  .nav:not(.nav--solida) .nav-enlaces a.activo { background: var(--c-amarillo-100); color: var(--c-amarillo-300); }
+}

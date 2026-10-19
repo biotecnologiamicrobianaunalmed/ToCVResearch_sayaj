@@ -1,0 +1,22 @@
+.hero { position: relative; min-height: 100svh; display: grid; align-items: center; padding: calc(var(--nav-h) + 48px) 0 56px; overflow: hidden; background: radial-gradient(1200px 600px at 80% 10%, rgba(242, 193, 78, 0.14), transparent 60%), radial-gradient(900px 500px at 10% 90%, rgba(90, 209, 230, 0.12), transparent 60%), linear-gradient(180deg, #0b1522 0%, #0e1a2b 100%); }
+.hero-fondo { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; opacity: 0.9; }
+.hero-contenido { position: relative; z-index: 1; max-width: 1180px; margin: 0 auto; padding: 0 20px; display: grid; justify-items: center; text-align: center; }
+.hero-texto { max-width: 900px; display: flex; flex-direction: column; align-items: center; }
+.hero-badge { display: inline-block; padding: 6px 14px; border-radius: 999px; background: var(--c-amarillo-100); color: var(--c-amarillo-300); font-weight: 700; font-size: 0.82rem; letter-spacing: 0.04em; margin-bottom: 18px; border: 1px solid rgba(242, 193, 78, 0.35); }
+.hero-titulo { font-size: clamp(2rem, 4.4vw, 3.3rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 18px; }
+.hero-subtitulo { font-size: 1.15rem; color: var(--c-ink-2); max-width: 760px; }
+.hero-autor { display: grid; gap: 2px; margin: 22px 0 26px; color: var(--c-ink-2); font-size: 0.95rem; }
+.hero-autor strong { color: var(--c-ink); font-size: 1.05rem; }
+.hero-acciones { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin-bottom: 34px; }
+.hero-stats { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; width: 100%; max-width: 900px; text-align: left; }
+.hero-stats li { background: rgba(18, 34, 56, 0.75); border: 1px solid var(--c-line); border-radius: 12px; padding: 12px 14px; backdrop-filter: blur(6px); }
+.hero-stats strong { display: block; font-family: var(--font-titulos); font-size: 1.5rem; color: var(--c-amarillo-300); letter-spacing: -0.02em; }
+.hero-stats span { font-size: 0.8rem; color: var(--c-ink-2); line-height: 1.35; display: block; margin-top: 2px; }
+
+@media (max-width: 960px) {
+  .hero-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .hero { padding-top: calc(var(--nav-h) + 28px); min-height: auto; }
+  .hero-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

@@ -1,0 +1,8 @@
+node_modules
+dist
+.DS_Store
+*.log
+.vite
+# documentos de trabajo privados: no publicar
+/Referencias
+/docs/privado

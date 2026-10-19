@@ -1,0 +1,73 @@
+:root {
+  /* Base azul noche (misma familia que el sitio ToBRFV), con matiz índigo propio */
+  --c-bg: #0b1522;
+  --c-bg-alt: #0e1a2b;
+  --c-surface: #122238;
+  --c-surface-2: #1a2d48;
+  --c-deep: #070f1a;
+  --c-ink: #eef3f9;
+  --c-ink-2: #c5d1e0;
+  --c-ink-3: #9fb1c9;
+  --c-line: #26405f;
+  /* Identidad ToCV: amarillo clorótico (el síntoma) */
+  --c-amarillo: #f2c14e;
+  --c-amarillo-300: #ffd98a;
+  --c-amarillo-700: #c9951f;
+  --c-amarillo-100: rgba(242, 193, 78, 0.16);
+  /* Vectores: B. tabaci cálido (tierras bajas) y T. vaporariorum frío (tierras altas) */
+  --c-btab: #ef8354;
+  --c-btab-300: #ffb08a;
+  --c-btab-100: rgba(239, 131, 84, 0.18);
+  --c-tvap: #5ad1e6;
+  --c-tvap-300: #9fe6f2;
+  --c-tvap-100: rgba(90, 209, 230, 0.16);
+  /* Cultivo y floema */
+  --c-tomato: #e4573f;
+  --c-tomato-300: #ff9a8a;
+  --c-tomato-100: rgba(228, 87, 63, 0.18);
+  --c-floema: #4fb286;
+  --c-floema-300: #8fd8b4;
+  --c-floema-100: rgba(79, 178, 134, 0.16);
+  --c-crema: #f6f1e4;
+  --radius: 16px;
+  --radius-sm: 9px;
+  --shadow: 0 14px 36px rgba(0, 0, 0, 0.38);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --maxw: 1180px;
+  --nav-h: 64px;
+  --font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-titulos: 'Manrope', 'Inter', system-ui, sans-serif;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: calc(var(--nav-h) + 8px); }
+body {
+  margin: 0; font-family: var(--font); background: var(--c-bg); color: var(--c-ink); line-height: 1.6;
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden;
+}
+img, video, svg { max-width: 100%; }
+img, video { display: block; }
+a { color: var(--c-amarillo-300); }
+button { font-family: inherit; }
+h1, h2, h3, h4 { font-family: var(--font-titulos); line-height: 1.15; margin: 0 0 0.6em; color: var(--c-ink); letter-spacing: -0.015em; }
+p { margin: 0 0 1em; }
+table { border-collapse: collapse; width: 100%; }
+/* Nombres científicos (ICTV y nomenclatura binomial) en cursiva */
+i.sci { font-style: italic; }
+sup.cita { font-size: 0.72em; line-height: 0; }
+sup.cita a { color: var(--c-floema-300); text-decoration: none; }
+sup.cita a:hover { text-decoration: underline; }
+
+.prosa p, .seccion-lead, .tarjeta > p, .lista-numerada li, .como-leer li, .fuentes li, .pie p {
+  text-align: justify; -webkit-hyphens: auto; hyphens: auto; hyphenate-limit-chars: 6 3 3;
+}
+:focus-visible { outline: 3px solid var(--c-amarillo-300); outline-offset: 2px; }
+
+@media (max-width: 600px) {
+  .prosa p, .seccion-lead, .tarjeta > p, .lista-numerada li, .como-leer li, .fuentes li, .pie p { text-align: left; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

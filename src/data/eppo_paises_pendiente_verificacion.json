@@ -1,0 +1,52 @@
+{
+  "_fuente": "EPPO Global Database, Crinivirus tomatichlorosis (TOCV00), https://gd.eppo.int/taxon/TOCV00/distribution, 'Last updated: 2026-07-28', transcrita el 2026-10-19. Año de primer reporte: Fiallo-Olivé & Navas-Castillo 2019, Mol Plant Pathol 20:1307-1320, Tabla 1 (null = no consta en la revisión). Pendiente de verificación país por país por la autora; cambiar 'mostrar' a false para excluir un país del mapa.",
+  "paises": [
+    { "pais": "Egipto", "iso": "EG", "region": "África", "estatus": "Present, widespread", "anio": null, "lat": 26.8, "lon": 30.8, "mostrar": true },
+    { "pais": "Kenia", "iso": "KE", "region": "África", "estatus": "Present, no details", "anio": null, "lat": 0.0, "lon": 37.9, "mostrar": true },
+    { "pais": "Marruecos", "iso": "MA", "region": "África", "estatus": "Present, restricted distribution", "anio": 2000, "lat": 31.8, "lon": -7.1, "mostrar": true },
+    { "pais": "Mauricio", "iso": "MU", "region": "África", "estatus": "Present, restricted distribution", "anio": 2007, "lat": -20.3, "lon": 57.6, "mostrar": true },
+    { "pais": "Mayotte", "iso": "YT", "region": "África", "estatus": "Present, restricted distribution", "anio": 2005, "lat": -12.8, "lon": 45.2, "mostrar": true },
+    { "pais": "Nigeria", "iso": "NG", "region": "África", "estatus": "Present, restricted distribution", "anio": 2017, "lat": 9.1, "lon": 8.7, "mostrar": true },
+    { "pais": "Reunión", "iso": "RE", "region": "África", "estatus": "Present, no details", "anio": 2004, "lat": -21.1, "lon": 55.5, "mostrar": true },
+    { "pais": "Sudáfrica", "iso": "ZA", "region": "África", "estatus": "Present, no details", "anio": 2000, "lat": -29.0, "lon": 24.7, "mostrar": true },
+    { "pais": "Sudán", "iso": "SD", "region": "África", "estatus": "Present, few occurrences", "anio": 2011, "lat": 15.5, "lon": 30.2, "mostrar": true },
+    { "pais": "Túnez", "iso": "TN", "region": "África", "estatus": "Present, restricted distribution", "anio": 2014, "lat": 34.0, "lon": 9.5, "mostrar": true },
+
+    { "pais": "Argentina", "iso": "AR", "region": "América", "estatus": "Present, no details", "anio": 2023, "lat": -34.0, "lon": -64.0, "mostrar": true, "nota": "Primer registro 2023 (Jujuy), posterior a la revisión de 2019; año según la página EPPO del país." },
+    { "pais": "Brasil", "iso": "BR", "region": "América", "estatus": "Present, restricted distribution", "anio": 2006, "lat": -14.2, "lon": -51.9, "mostrar": true, "nota": "11 estados listados por la EPPO." },
+    { "pais": "Costa Rica", "iso": "CR", "region": "América", "estatus": "Present, restricted distribution", "anio": 2007, "lat": 9.7, "lon": -83.8, "mostrar": true },
+    { "pais": "Cuba", "iso": "CU", "region": "América", "estatus": "Present, no details", "anio": 2006, "lat": 21.5, "lon": -79.5, "mostrar": true },
+    { "pais": "República Dominicana", "iso": "DO", "region": "América", "estatus": "Present, restricted distribution", "anio": null, "lat": 18.7, "lon": -70.2, "mostrar": true },
+    { "pais": "Estados Unidos", "iso": "US", "region": "América", "estatus": "Present, restricted distribution", "anio": 1996, "lat": 37.1, "lon": -95.7, "mostrar": true, "nota": "Primer reporte mundial (Florida); estados listados: CO, CT, FL, GA, LA, NY, VA." },
+    { "pais": "México", "iso": "MX", "region": "América", "estatus": "Present, no details", "anio": 2005, "lat": 23.6, "lon": -102.6, "mostrar": true },
+    { "pais": "Puerto Rico", "iso": "PR", "region": "América", "estatus": "Present, no details", "anio": 2001, "lat": 18.2, "lon": -66.5, "mostrar": true },
+    { "pais": "Uruguay", "iso": "UY", "region": "América", "estatus": "Present, restricted distribution", "anio": 2012, "lat": -32.5, "lon": -55.8, "mostrar": true },
+
+    { "pais": "Arabia Saudita", "iso": "SA", "region": "Asia", "estatus": "Present, no details", "anio": 2014, "lat": 23.9, "lon": 45.1, "mostrar": true },
+    { "pais": "China", "iso": "CN", "region": "Asia", "estatus": "Present, restricted distribution", "anio": 2012, "lat": 35.9, "lon": 104.2, "mostrar": true, "nota": "16 provincias listadas por la EPPO." },
+    { "pais": "Corea del Sur", "iso": "KR", "region": "Asia", "estatus": "Present, restricted distribution", "anio": 2013, "lat": 35.9, "lon": 127.8, "mostrar": true },
+    { "pais": "India", "iso": "IN", "region": "Asia", "estatus": "Present, few occurrences", "anio": null, "lat": 20.6, "lon": 79.0, "mostrar": true, "nota": "Himachal Pradesh y Tamil Nadu." },
+    { "pais": "Indonesia", "iso": "ID", "region": "Asia", "estatus": "Present, no details", "anio": 2008, "lat": -2.5, "lon": 118.0, "mostrar": true, "nota": "Java." },
+    { "pais": "Israel", "iso": "IL", "region": "Asia", "estatus": "Present, few occurrences", "anio": 2003, "lat": 31.0, "lon": 34.9, "mostrar": true },
+    { "pais": "Japón", "iso": "JP", "region": "Asia", "estatus": "Present, restricted distribution", "anio": 2008, "lat": 36.2, "lon": 138.3, "mostrar": true, "nota": "Honshu." },
+    { "pais": "Jordania", "iso": "JO", "region": "Asia", "estatus": "Present, restricted distribution", "anio": 2014, "lat": 30.6, "lon": 36.2, "mostrar": true },
+    { "pais": "Líbano", "iso": "LB", "region": "Asia", "estatus": "Present, restricted distribution", "anio": 2006, "lat": 33.9, "lon": 35.9, "mostrar": true },
+    { "pais": "Pakistán", "iso": "PK", "region": "Asia", "estatus": "Present, no details", "anio": null, "lat": 30.4, "lon": 69.3, "mostrar": true },
+    { "pais": "Taiwán", "iso": "TW", "region": "Asia", "estatus": "Present, restricted distribution", "anio": 1998, "lat": 23.7, "lon": 121.0, "mostrar": true },
+    { "pais": "Türkiye", "iso": "TR", "region": "Asia", "estatus": "Present, restricted distribution", "anio": 2008, "lat": 39.0, "lon": 35.2, "mostrar": true },
+    { "pais": "Uzbekistán", "iso": "UZ", "region": "Asia", "estatus": "Present, no details", "anio": null, "lat": 41.4, "lon": 64.6, "mostrar": true },
+
+    { "pais": "Albania", "iso": "AL", "region": "Europa", "estatus": "Present, no details", "anio": null, "lat": 41.2, "lon": 20.2, "mostrar": true },
+    { "pais": "Chipre", "iso": "CY", "region": "Europa", "estatus": "Present, restricted distribution", "anio": 2004, "lat": 35.1, "lon": 33.4, "mostrar": true },
+    { "pais": "España", "iso": "ES", "region": "Europa", "estatus": "Present, restricted distribution", "anio": 1997, "lat": 40.0, "lon": -3.7, "mostrar": true, "nota": "Incluye Baleares y Canarias (Canarias 2001)." },
+    { "pais": "Francia", "iso": "FR", "region": "Europa", "estatus": "Present, restricted distribution", "anio": 2002, "lat": 46.6, "lon": 2.2, "mostrar": true },
+    { "pais": "Grecia", "iso": "GR", "region": "Europa", "estatus": "Present, restricted distribution", "anio": 2001, "lat": 39.1, "lon": 21.8, "mostrar": true, "nota": "Incluye Creta." },
+    { "pais": "Hungría", "iso": "HU", "region": "Europa", "estatus": "Present, few occurrences", "anio": 2010, "lat": 47.2, "lon": 19.5, "mostrar": true },
+    { "pais": "Italia", "iso": "IT", "region": "Europa", "estatus": "Present, restricted distribution", "anio": 2000, "lat": 41.9, "lon": 12.6, "mostrar": true, "nota": "Incluye Sardegna y Sicilia." },
+    { "pais": "Países Bajos", "iso": "NL", "region": "Europa", "estatus": "Present, restricted distribution", "anio": 2017, "lat": 52.1, "lon": 5.3, "mostrar": true },
+    { "pais": "Portugal", "iso": "PT", "region": "Europa", "estatus": "Present, restricted distribution", "anio": 1998, "lat": 39.4, "lon": -8.2, "mostrar": true },
+
+    { "pais": "Reino Unido", "iso": "GB", "region": "Europa", "estatus": "Absent, pest eradicated", "anio": 2018, "lat": 54.0, "lon": -2.5, "mostrar": true, "nota": "Brote en un invernadero de Kent en 2018, erradicado en 2020 (EPPO RS 2018/129, 2020/126)." },
+    { "pais": "Bélgica", "iso": "BE", "region": "Europa", "estatus": "Absent, no pest record", "anio": null, "lat": 50.5, "lon": 4.5, "mostrar": false, "nota": "Registro 'ausente' en EPPO; no se dibuja." }
+  ]
+}
